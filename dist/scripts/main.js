@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){var e=document.getElementById("formulario");let t=document.getElementById("nome"),n=document.getElementById("resultado"),d=document.getElementById("resultado-container");d.style.display="none",e.addEventListener("submit",function(e){e.preventDefault(),d.style.display="block";e=t.value;n.innerText=e})});
