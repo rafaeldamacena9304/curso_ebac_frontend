@@ -1,8 +1,11 @@
 import gulp from 'gulp';
 import sass from 'gulp-sass';
+import dartSass from 'sass';
 import uglify from 'gulp-uglify';
 import imagemin from 'gulp-imagemin';
 import obfuscate from 'gulp-obfuscate'
+
+const sassCompiler = sass(dartSass);
 
 function comprimirImagens(){
     return gulp.src('./src/img/*', {encoding : false})
@@ -18,8 +21,8 @@ function comprimirJavaScript(){
 }
 
 function compilarSass(){
-    return gulp.src('./src/styles.scss')
-        .pipe(sass())
+    return gulp.src('./src/styles/styles.scss')
+        .pipe(sassCompiler())
         .pipe(gulp.dest('./dist'))
 }
 
