@@ -1,0 +1,35 @@
+header{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:2;
+    background-color:black;
+}
+#carousel img{
+    height:90dvh;
+}
+.img-container{
+    width:100%;
+    overflow:hidden;
+    height:auto;
+}
+.img-container img{
+    width:100%;
+    object-fit:cover;
+    object-position: center;
+}
+.card-body img{
+    height:200px;
+}
+.servicos{
+    background-color:#e7e7e7
+}
+form{
+    background-color:#e7e7e7
+}
+.nav-link{
+    color:white;
+}
+.nav-link.active{
+    font-weight:bold; 
+}
