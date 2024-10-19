@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color:#e7e7e7
+}
+.container{
+    max-width:600px;
+    text-align: center;
+    width:100%;
+    margin:0 auto;
+    margin-top:40px;
+}
+.tituloPrincipal{
+    margin-bottom:16px;
+}
+.subTitulo{
+    margin-bottom:16px;
+}
+.observacao{
+    margin-bottom:16px;
+    font-style:italic;
+    color:#5c5c5c
+}
