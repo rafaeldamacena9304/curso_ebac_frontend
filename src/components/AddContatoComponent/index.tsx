@@ -17,7 +17,7 @@ export const AddContatoComponent = () => {
 
 
     const [contato, setContato] = useState({
-      id: Date.now,
+      id: Date.now(),
       nome: '',
       email: '',
       telefone: '',
