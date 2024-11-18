@@ -1,6 +1,6 @@
 # Repositório de Exercícios - Curso Front-End da EBAC
 
-Este repositório contém uma série de exercícios e esboços realizados durante o curso de **Desenvolvimento Front-End** da **EBAC - Escola Britânica de Artes Criativas e Tecnologia**. Os exercícios abordam diversos temas e ferramentas que são fundamentais para o desenvolvimento front-end moderno.
+Este repositório contém uma série de exercícios e esboços realizados durante o curso de **Desenvolvimento Front-End** da **EBAC - Escola Britânica de Artes Criativas e Tecnologia**. Os exercícios abordam diversos temas e ferramentas que são fundamentais para o desenvolvimento front-end moderno. Todos os exercícios englobam a versão analisada, correta e aprovada pelos tutores.
 
 Cada exercício é simples, mas abrange conceitos essenciais que fui aprendendo durante o curso, com foco nas melhores práticas e novas tecnologias utilizadas no desenvolvimento web. Cada tema está organizado em uma branch separada, permitindo fácil acesso e compreensão de cada ferramenta e técnica.
 
